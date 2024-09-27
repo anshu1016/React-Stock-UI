@@ -9,7 +9,7 @@ export const Navigation = () => {
   };
 
   return (
-    <div className="mx-[60px] mt-[40px]">
+    <div className="mx-[60px] mt-[40px] border-b-[1px] border-b-gray-100">
       <ul className="flex list-none gap-[30px] cursor-pointer h-[43px]">
         {["Summary", "Chart", "Statistics", "Analysis", "Settings"].map(
           (tab) => (
